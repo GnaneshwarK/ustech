@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+ <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
+
+
+</head>
+<body>
+   
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg  static-top" style="border-bottom: 1px solid blue;">
+    <div class="container">
+      <a class="navbar-brand text-bold"  href="#">
+            <img src="../ustech/images/denticon.png" width="30" alt="">
+            <span style="font-weight: bolder;">Q-Dent</span>
+          </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Dentists
+                  <span class="sr-only">(current)</span>
+                </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Consult</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pharmacy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Symptoms</a>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-default" style="border: 1px solid blue;" href="#">login/signup</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Page Content -->
+  <div class="container">
+    <br>
+    <div class="main">
+  
+        <!-- Actual search box -->
+        <div class="form-group has-search">
+          <span class="fa fa-search form-control-feedback">
+            <img  src="images/searchicon.png" style="width: 30px;"></img>
+          </span>
+          <input type="text" style="width: 350px;" class="form-control" placeholder="Search Dentist Clinics & Hospital">
+        </div>
+        
+      
+        <!-- Actual search box -->
+        <div class="form-group has-search">
+            <span class="fa fa-search form-control-feedback">
+              <img  src="images/location.png" style="width: 30px;"></img>
+            </span>
+            <input style="width: 350px;"  type="text" class="form-control" placeholder="Enter Location">
+          </div>
+          
+        
+       
+        
+      </div>
+
+      <div class="container">
+
+     
+      <div class="jumbotron" style="padding:40px 130px;">
+        <h3 style="font-weight: bolder;color:blueviolet;">Dental Problems ?</h3>      
+        <p style="font-weight: bolder;color:blueviolet;">24/7 booking fecility available with experienced and trusted dentist near you. Schedule hassle free consultation for online and inclinic visit to your dentist</p>
+      </div>
+    </div>
+
+    <div class="container d-flex ">
+        <div class="card p-2" style="width: 50%;">
+            <div class="d-flex align-items-center">
+                <div class="image"> <img src="./images/dentist1.jpg" class="rounded" width="155"> </div>
+                <div class="ml-2 w-100">
+                    <h4 class="mb-0 mt-0">Dentists Near You</h4> <span>Select dentists near you and schedule the inclicnic consultation</span>
+                  
+                    <div class="button mt-2 d-flex flex-row " style="float: right;"> <button class="btn btn-sm btn-primary w-20 ml-2">Book Now</button> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card p-2"  style="width: 50%;">
+            <div class="d-flex align-items-center">
+                <div class="image"> <img src="./images/online.jpg" class="rounded" width="155"> </div>
+                <div class="ml-2 w-100">
+                    <h4 class="mb-0 mt-0">Online COnsultation</h4> <span>Select the dentist for online consultation</span>
+                   
+                    <div class="button mt-2 d-flex flex-row " style="float: right;">  <button class="btn btn-sm btn-primary w-20 ml-2">Book Now</button> </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<div style="text-align: center;">
+    <h5 style="font-weight: bolder;color:blueviolet;">Popular Dentist Near You</h5>      
+</div>
+   
+    <div class="row">
+       
+		<div class="col-lg-4 col-sm-4">
+
+            <div class="card hovercard">
+                <div class="cardheader">
+
+                </div>
+                <div class="avatar">
+                    <img alt="" src="./images/images10.jpg">
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <a target="_blank" href="https://scripteden.com/">Dr. Raunaq Bhatiya</a>
+                    </div>
+                    <div class="desc">MDS Orthodotist</div>
+                    <div class="desc">1.2 Km away</div>
+                    <div class="desc">available in 45 minutes</div>
+                </div>
+                <div class="bottom">
+                  
+                    <a class="btn btn-outline-primary btn-sm" rel="publisher"
+                       href="https://plus.google.com/shahnuralam">
+                        <i class="fa fa-facebook">4.5</i>
+                    </a>
+                    <a class="btn btn-outline-warning btn-sm" rel="publisher" href="https://plus.google.com/shahnuralam">
+                        <i class="fa fa-behance">$60</i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-sm-4">
+
+            <div class="card hovercard">
+                <div class="cardheader">
+
+                </div>
+                <div class="avatar">
+                    <img alt="" src="./images/images11.jpg">
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <a target="_blank" href="https://scripteden.com/">Dr. Robin Chettri</a>
+                    </div>
+                    <div class="desc">Maxilofacial Surjon</div>
+                    <div class="desc">1.2 km away</div>
+                    <div class="desc">available in 15 minutes</div>
+                </div>
+                <div class="bottom">
+                  
+                    <a class="btn btn-outline-primary btn-sm" rel="publisher"
+                       href="https://plus.google.com/shahnuralam">
+                        <i class="fa fa-facebook">4.5</i>
+                    </a>
+                    <a class="btn btn-outline-warning btn-sm" rel="publisher" href="https://plus.google.com/shahnuralam">
+                        <i class="fa fa-behance">$60</i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-sm-4">
+
+            <div class="card hovercard">
+                <div class="cardheader">
+
+                </div>
+                <div class="avatar">
+                    <img alt="" src="./images/images12.jpg">
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <a target="_blank" href="https://scripteden.com/">Dr. Samar Raina</a>
+                    </div>
+                    <div class="desc">Dental Conservation</div>
+                    <div class="desc">1.2 km away</div>
+                    <div class="desc">available in next 30 minutes</div>
+                </div>
+                <div class="bottom">
+                  
+                    <a class="btn btn-outline-primary btn-sm" rel="publisher"
+                       href="https://plus.google.com/shahnuralam">
+                        <i class="fa fa-facebook">4.5</i>
+                    </a>
+                    <a class="btn btn-outline-warning btn-sm" rel="publisher" href="https://plus.google.com/shahnuralam">
+                        <i class="fa fa-behance">$60</i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+
+	</div>
+
+    <div style="text-align: center;">
+        <h5 style="font-weight: bolder;color:blueviolet;">Know Your Symptoms</h5>      
+    </div>
+
+    <div class="card-deck">
+        <div class="card">
+          <div class="item">
+            <img class="card-img-top" src="./images/images21.png" alt="Card image cap" width="300">
+          </div>
+          <div class="border-effect bg-warning"></div>
+  
+        </div>
+        <div class="card">
+          <div class="item">
+            <img class="card-img-top" src="./images/images22.png" alt="Card image cap" width="300">
+          </div>
+          <div class="border-effect bg-warning"></div>
+      
+        </div>
+        <div class="card">
+          <div class="item">
+            <img class="card-img-top" src="./images/images23.png" alt="Card image cap" width="300">
+          </div>
+          <div class="border-effect bg-warning"></div>
+       
+        </div>
+        <div class="card">
+          <div class="item">
+            <img class="card-img-top" src="./images/images24.png" alt="Card image cap" width="300">
+          </div>
+          <div class="border-effect bg-warning"></div>
+        
+        </div>
+      </div>
+<br>
+
+      <div style="text-align: center;">
+        <h5 style="font-weight: bolder;color:blueviolet;">Dental Health & You</h5>      
+    </div>
+
+      
+    <div class="container d-flex ">
+        <div class="card p-2" style="width: 50%;">
+            <div class="d-flex align-items-center">
+    
+                <div class="ml-2 w-100">
+                    <h4 class="mb-0 mt-0">How to keep cavity away</h4> 
+                    <span>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</span>
+                  
+                    <div class="button mt-2 d-flex flex-row " style="float: right;"> <a  href="" class=" w-20 ml-2">Read more</a> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card p-2"  style="width: 50%;">
+            <div class="d-flex align-items-center">
+
+                <div class="ml-2 w-100">
+                    <h4 class="mb-0 mt-0">How to keep cavity away</h4> 
+                    <span>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</span>
+                   
+                    <div class="button mt-2 d-flex flex-row " style="float: right;">  <a href="" class=" w-20 ml-2">Read more</a> </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <br>
+
+
+
+    
+    <div style="text-align: center;">
+        <h5 style="font-weight: bolder;color:blueviolet;">Happy Smiles</h5>      
+    </div>
+
+      
+    <div class="container d-flex ">
+        <div class="card p-2" style="width: 50%;">
+            <div class="d-flex align-items-center">
+    
+                <div class="ml-2 w-100">
+              
+                    <span>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry </span>
+                  
+                    <div class="button mt-2 d-flex flex-row " style="float: right;"> <a  href="" class=" w-20 ml-2">-Sagar</a> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card p-2" style="width: 50%;">
+            <div class="d-flex align-items-center">
+    
+                <div class="ml-2 w-100">
+                 
+                    <span>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry </span>
+                  
+                    <div class="button mt-2 d-flex flex-row " style="float: right;"> <a  href="" class=" w-20 ml-2">-Sagar</a> </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card p-2" style="width: 50%;">
+            <div class="d-flex align-items-center">
+    
+                <div class="ml-2 w-100">
+                    <span>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry </span>
+                  
+                    <div class="button mt-2 d-flex flex-row " style="float: right;"> <a  href="" class=" w-20 ml-2">-Sagar</a> </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card p-2"  style="width: 50%;">
+            <div class="d-flex align-items-center">
+
+                <div class="ml-2 w-100">
+                    <span>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry </span>
+                   
+                    <div class="button mt-2 d-flex flex-row " style="float: right;">  <a href="" class=" w-20 ml-2">-Sagar</a> </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+  </div>
+  <!-- /.container -->
+  
+
+
+</body>
+</html>
